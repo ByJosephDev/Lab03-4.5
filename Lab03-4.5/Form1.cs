@@ -103,8 +103,8 @@ namespace Lab03_4._5
 
         private void btnPersona_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2(conn);
-            form2.Show();
+            Persona persona = new Persona(conn);
+            persona.Show();
         }
     }
 }
